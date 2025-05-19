@@ -10,3 +10,10 @@
 3. Introduced the large kernel decomposition strategy into molecular representation learning.
 4. Achieved significant performance improvements on multiple public datasets.
 
+## 🚀 Quick Start
+### 1. 环境配置
+
+```bash
+conda create -n Prop3D python=3.9
+conda activate Prop3D
+pip install -r requirements.txt
