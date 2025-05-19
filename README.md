@@ -5,10 +5,8 @@
 
 ## 📝 Key Contributions
 
-1. **Modeling Molecular Data as 3D Grids**: Proposes a novel way of representing molecular data by modeling molecules as 3D grids, which effectively captures the three-dimensional geometric structure of molecules.
-   
-2. **Introduction of Prop3D**: Introduces **Prop3D**, a new representation learning model for molecular property prediction, leveraging the power of 3D convolutional neural networks (3D-CNNs) to improve prediction accuracy.
+1. Modeling molecular data as 3D grids.
+2. Proposed a representation learning model for molecular property prediction called Prop3D.
+3. Introduced the large kernel decomposition strategy into molecular representation learning.
+4. Achieved significant performance improvements on multiple public datasets.
 
-3. **Large Kernel Decomposition Strategy**: Introduces an optimized decomposition strategy for large convolutional kernels, significantly reducing computational overhead while enhancing the model's ability to capture complex molecular features.
-
-4. **Superior Performance on Public Datasets**: Demonstrates significant performance improvements on multiple public benchmark datasets, showing that Prop3D outperforms state-of-the-art molecular property prediction methods.
