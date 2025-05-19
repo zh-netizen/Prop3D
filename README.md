@@ -11,7 +11,7 @@
 4. Achieved significant performance improvements on multiple public datasets.
 
 ## 🚀 Quick Start
-### 1. Environment Setup
+### 1. Set up the environment
 
 ```bash
 conda create -n Prop3D python=3.9
@@ -20,5 +20,19 @@ pip install -r requirements.txt
 ```
 
 ###  2.Dataset Download Instructions
-QM9:Source: [Atom3D - QM9 Dataset](https://www.atom3d.ai/smp.html)
-ESOL Freesolv Tox21:Source: [Drug3D-Net GitHub](https://github.com/anny0316/Drug3D-Net)
+
+1.QM9:Source: [Atom3D - QM9 Dataset](https://www.atom3d.ai/smp.html)
+
+2.ESOL Freesolv Tox21:Source: [Drug3D-Net GitHub](https://github.com/anny0316/Drug3D-Net)
+
+### 3.Model Training and Evaluation
+This project supports training and evaluation on four widely-used molecular datasets:
+
+| Dataset    | Type            | Task                          | Script         |
+|------------|-----------------|-------------------------------|----------------|
+| QM9        | Regression       | Quantum chemistry properties  | `3dcnntrain.py` |
+| ESOL       | Regression       | Aqueous solubility prediction | `esol.py`       |
+| FreeSolv   | Regression       | Hydration free energy         | `freesolv.py`   |
+| Tox21      | classification | Toxicity classification (12 tasks) | `Tox21.py`      |
+
+
