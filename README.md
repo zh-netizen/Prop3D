@@ -11,9 +11,11 @@
 4. Achieved significant performance improvements on multiple public datasets.
 
 ## 🚀 Quick Start
-### 1. 环境配置
+### 1. Environment Setup
 
 ```bash
 conda create -n Prop3D python=3.9
 conda activate Prop3D
 pip install -r requirements.txt
+
+###  2.Dataset Download Instructions
