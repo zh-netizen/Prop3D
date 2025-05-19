@@ -1,0 +1,9 @@
+numpy
+pandas
+torch
+tqdm
+scipy
+joblib
+atom3d
+pytest
+rdkit
