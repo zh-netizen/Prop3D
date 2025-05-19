@@ -17,5 +17,8 @@
 conda create -n Prop3D python=3.9
 conda activate Prop3D
 pip install -r requirements.txt
+```
 
 ###  2.Dataset Download Instructions
+QM9:Source: [Atom3D - QM9 Dataset](https://www.atom3d.ai/smp.html)
+ESOL Freesolv Tox21:Source: [Drug3D-Net GitHub](https://github.com/anny0316/Drug3D-Net)
