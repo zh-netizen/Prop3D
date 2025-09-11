@@ -1,7 +1,9 @@
 # 🧬 Prop3D: Geometry-enhanced Representation Learning Model for Molecular Property Prediction
-## 📖 Introduction
+## 📖 abstract
+Molecular representation learning (MRL) has demonstrated significant potential in various fields such as drug discovery, particularly in extracting molecular features under limited supervision. However, most existing approaches rely on one-dimensional sequences or two-dimensional topological structures, which fail to adequately capture the complexity of molecular three-dimensional (3D) geometry, thereby limiting their performance in complex property prediction tasks.
+To more effectively model spatial structural information, three-dimensional convolutional neural networks have recently gained attention in MRL research due to their ability to directly process voxelized 3D molecular data. Nevertheless, these methods often suffer from severe computational inefficiencies caused by the inherent sparsity of voxel data, resulting in a large number of redundant operations. In addition, the commonly used large convolutional kernels—though beneficial for increasing model capacity—introduce substantial computational overhead, which restricts scalability in practical applications.
+To address these challenges,  we propose Prop3D, an efficient 3D molecular representation learning model. Prop3D adopts a kernel decomposition strategy that significantly reduces computational cost while maintaining high predictive accuracy. Experimental results on multiple public benchmark datasets demonstrate that Prop3D consistently outperforms several state-of-the-art methods in molecular property prediction.
 
-**Prop3D** is a molecular representation learning model based on **3D convolutional neural networks (3D-CNNs)**, designed to more effectively leverage the three-dimensional geometric structure of molecules for property prediction. By optimizing the decomposition of large convolutional kernels, Prop3D reduces computational overhead while enhancing modeling capacity. It also incorporates an attention mechanism to better focus on key structural features. Experimental results show that Prop3D consistently outperforms mainstream methods across various molecular property prediction tasks, demonstrating strong performance and broad applicability.
 
 ![model](fig1.png)
 
