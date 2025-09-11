@@ -32,7 +32,7 @@ This project supports training and evaluation on four widely-used molecular data
 
 | Dataset    | Type            | Task                          | Script         |
 |------------|-----------------|-------------------------------|----------------|
-| QM9        | Regression       | Quantum chemistry properties  | `3dcnntrain.py` |
+| QM9        | Regression       | Quantum chemistry properties  | `train.py` |
 | ESOL       | Regression       | Aqueous solubility prediction | `esol.py`       |
 | FreeSolv   | Regression       | Hydration free energy         | `freesolv.py`   |
 | Tox21      | classification | Toxicity classification (12 tasks) | `Tox21.py`      |
